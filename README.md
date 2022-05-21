@@ -1,3 +1,12 @@
+# MELPA FORK
+
+git remote add upstream https://github.com/melpa/melpa
+
+git merge upstream/master
+
+When creating MR ensure you select `base repository: josephmarbach/melpa`
+
+
 # MELPA
 
 [![Build Status](https://github.com/melpa/melpa/workflows/CI/badge.svg)](https://github.com/melpa/melpa/actions)
@@ -190,7 +199,7 @@ contains two files:
 * `README.markdown`
 * `smex.el`
 
-Since there is only one `.el` file, this package only needs the `:url`
+Since there is only one `.el` file, this package only needs the `:repo`
 and `:fetcher` specified,
 
 ```elisp
